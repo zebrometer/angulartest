@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "http": "node_modules/http-server/bin/http-server ./app -a 0.0.0.0 -o"
   },
   "author": "",
   "license": "ISC",
@@ -15,6 +16,7 @@
     "babel-preset-stage-1": "^6.3.13",
     "css-loader": "^0.23.1",
     "extract-text-webpack-plugin": "^1.0.1",
+    "http-server": "^0.8.5",
     "less": "^2.5.3",
     "less-loader": "^2.2.2",
     "style-loader": "^0.13.0",
